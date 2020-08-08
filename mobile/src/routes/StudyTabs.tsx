@@ -44,7 +44,7 @@ function StudyTabs () {
           tabBarLabel: 'Proffys',
           tabBarIcon: ({ color, size, focused }) => {
             return (
-              <Ionicons name="ios-easel" size={ size } color={ focused ? '#8257E5' : color } />
+              <Ionicons name="ios-easel" size={ size - 3 } color={ focused ? '#8257E5' : color } />
             );
           }
         }}
@@ -57,7 +57,7 @@ function StudyTabs () {
           tabBarLabel: 'Favoritos',
           tabBarIcon: ({ color, size, focused }) => {
             return (
-              <Ionicons name="ios-heart" size={ size } color={ focused ? '#8257E5' : color } />
+              <Ionicons name="ios-heart" size={ size - 3 } color={ focused ? '#8257E5' : color } />
             );
           }
         }} 
